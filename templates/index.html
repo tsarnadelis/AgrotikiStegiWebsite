@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αγροτική Στέγη</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bbd1c7;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-image: url("/static/plant.jpg");
+            background-size: cover;
+            background-position: center;
+            color: #318241;
+            position: relative;
+            text-align: center;
+            padding: 1em 0;
+            font-size: larger;
+            outline: 2px solid black;
+        }
+
+        header h1 {
+            text-shadow: 1px 1px 1px #ffffff;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+            font-size: large;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            
+        }
+
+        main {
+            flex: 1;
+        }
+
+        img {
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Αγροτική Στέγη<br>Ποντικίδου Δήμητρα</h1>
+    </header>
+
+    <section id="home">
+        <h2>Καλωσήρθατε στην Αγροτική Στέγη</h2>
+        <p>Ανακαλύψτε μια μεγάλη γκάμα προϊόντων για όλες τις ανάγκες σας</p>
+    </section>
+
+    <section id="products">
+        <h2>Προϊόντα</h2>
+        <p>Λύσεις για επαγγελματίες και ερασιτέχνες, από τις μεγαλυτερες εταιρίες στον χώρο</p>
+        <img src="{{ url_for('static', filename='corteva.png') }}" alt="Corteva" style="width: 300px; height: auto;">
+        <img src="{{ url_for('static', filename='yara.png') }}" alt="Yara" style="width: 200px; height: auto;">
+        <img src="{{ url_for('static', filename='dekagro.png') }}" alt="Dekagro" style="width: 200px; height: auto;">
+    </section>
+
+    <section id="location">
+        <h2>Που θα μας βρείτε</h2>
+        <p>Νέα Καρυά, Χρυσούπολη Καβάλας</p>
+        <a href="https://maps.app.goo.gl/vcQPij97J6sky1ku8">Βρείτε μας στο Google Maps</a>
+    </section>
+
+    <section id="contact">
+        <h2>Επικοινωνία</h2>
+        <p>Email: pontikidoudimitra@gmail.com</p>
+        <p>Phone: (+30) 25910 61987</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Αγροτική Στέγη. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
