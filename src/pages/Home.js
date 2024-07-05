@@ -6,6 +6,7 @@ import Divider from '../components/Divider';
 import ServiceCard from '../components/ServiceCard';
 import ContactCard from '../components/ContactCard';
 import MapCard from '../components/MapCard';
+import GMapCard from '../components/GMapCard';
 import './Home.css';
 
 
@@ -81,7 +82,7 @@ const Home = () => {
         <Divider />
         <h2>Που θα μας βρείτε</h2>
         <div className='map-container'>
-          <MapCard />
+          <GMapCard />
         </div>
       </main>
       <Footer />
