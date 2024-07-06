@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AgrotikiStegiWebsite/static/css/main.4db4cbcf.css",
+    "main.js": "/AgrotikiStegiWebsite/static/js/main.f542283d.js",
+    "static/media/logo_cropped.png": "/AgrotikiStegiWebsite/static/media/logo_cropped.e6ffaeafea9fdb1ce111.png",
+    "index.html": "/AgrotikiStegiWebsite/index.html",
+    "main.4db4cbcf.css.map": "/AgrotikiStegiWebsite/static/css/main.4db4cbcf.css.map",
+    "main.f542283d.js.map": "/AgrotikiStegiWebsite/static/js/main.f542283d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4db4cbcf.css",
+    "static/js/main.f542283d.js"
+  ]
+}
