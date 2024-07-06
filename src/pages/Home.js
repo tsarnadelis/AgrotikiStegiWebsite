@@ -5,7 +5,7 @@ import ProductCard from '../components/ProductCard';
 import Divider from '../components/Divider';
 import ServiceCard from '../components/ServiceCard';
 import ContactCard from '../components/ContactCard';
-import MapCard from '../components/MapCard';
+// import MapCard from '../components/MapCard'; // OpenStreetMap implementation, replaced with Google Maps
 import GMapCard from '../components/GMapCard';
 import './Home.css';
 
